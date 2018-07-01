@@ -1,0 +1,110 @@
+
+		body{
+			margin-top:50px;
+			margin-left:10px;
+			background-image:url("img/fondo.jpg");
+			background-size: cover;
+		}
+	
+		table{
+			margin-top:50px;
+		}
+
+		tr, td,.celdas {
+		   text-align:center;
+		   width: 30px;
+		   height:30px;
+		   font-size:20px;
+
+		}
+		.celdas{
+			border-style:none;
+			font-weight:bold;
+			color:#635b5b;
+		}
+		.celdaCompleta{
+			color:#3d86c6;
+		}
+
+	tr:nth-child(9){
+			   
+			   border-bottom: 2pt solid black;
+
+	}
+
+	tr:nth-child(3n+1){
+			   
+			   border-top: 2pt solid black;
+
+	}
+
+	td:nth-child(9){
+			   border-right: 2pt solid black;
+	}
+
+	td:nth-child(3n+1){
+			   border-left: 2pt solid black;
+	}
+
+	.columnaBorde{
+		margin-top:7%;
+	}
+	.sudoku{
+		margin-right:0px;
+		border-right:0px;
+		padding-right:0px;
+	}
+	.ultimaColumna{
+		margin-left:0%;
+		margin-right:0%;
+		border-left:0%;
+		border-right:0%;
+
+	}
+	.row{
+		margin-top:5%;
+		margin-left:5%;
+		margin-right:0px;
+	}
+	
+	.ocultar{
+		display:none;
+	}
+	/*
+	#imgCargando{
+
+		width: 200px;
+		height: 200px;
+
+	}
+
+	#cargando{
+		display:none;
+	}
+	*/
+	.alert{
+     position: fixed;
+    top: 90%;
+    left: 5%;
+    width: 300px;
+
+    opacity:0;
+}
+
+.ultimaColumna{
+	margin-left:0;
+	margin-top:0;
+	border-left:0;
+}
+
+.estados{
+	position:absolute;
+	top:7%;
+	
+}
+label{
+	width:400px;
+}
+.wrapperPB{
+		width:250px;
+}
